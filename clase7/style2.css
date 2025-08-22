@@ -1,0 +1,14 @@
+.contenedor_padre{
+    border: 2px solid black;
+    height: 80px;
+    padding: 10px;
+}
+
+.modulo1{
+    text-align: center;
+    background-color: lightgrey;
+    float: left;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

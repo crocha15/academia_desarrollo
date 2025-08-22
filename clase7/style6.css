@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+.modulo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(70, 65, 65);
+    color: white;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 0px;
+}
+
+.titulo {
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 73%;
+    float: left;
+}
+
+.menu {
+    padding-top: 25px;
+    margin-left: 20px;
+    float: left;
+}
+
+.modulo_padre {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modulo_hijo1 {
+    width: 20%;
+    height: 800px;
+    margin-top: 0px;
+    float: left;
+}
+
+.modulo_hijo1_div {
+    background-color: lightgrey;
+    width: 100%;
+    height: 400px;
+    padding-top: 30px;
+    float: left;
+}
+
+.modulo2_cont {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.img {
+    border-radius: 10px;
+    width: 150px;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+.modulo_articulo_div {
+    width: 55%;
+    height: 800px;
+    float: left;
+}
+
+.modulo_hijo2_div {
+    border: 1px solid lightgrey;
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.modulo_hijo3 {
+    width: 22%;
+    height: 800px;
+    padding: 10px;
+    margin-left: 25px;
+    float: left;
+}
+
+.modulo_hijo3_div {
+    width: 100%;
+    padding: 10px;
+}
+
+.cuadro_1 {
+    background-color: lightgrey;
+    width: 100%;
+    height: 100px;
+}
+
+.cuadro_2 {
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
