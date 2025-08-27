@@ -1,0 +1,64 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo {
+    background-color: #236571;
+}
+
+.section1 {
+    background-color: #E3934C;
+    margin-top: 30px;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.subtitulos {
+    margin-top: 15px;
+    margin-left: 120px;
+    color: whitesmoke;
+}
+
+.contenido {
+    margin-left: 100px;
+    width: 1000px;
+}
+
+.card {
+    margin-left: 100px;
+    background-color: #02242D;
+    width: 300px;
+    overflow: auto;
+    /* height: 75px; */
+    padding: 15px;
+    color: whitesmoke;
+    margin: 20px;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 10px 10px 70px black;
+}
+
+.card-content {
+    float: left;
+    margin-right: 18px;
+    text-align: center;
+    width: 200px;
+}
+
+.parrafo {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+
+.btn {
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    color: #20555D;
+    font-weight: bold;
+}
