@@ -2,8 +2,11 @@
     margin: 0;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
 .contenedor {
-    font-family: Arial, Helvetica, sans-serif;
     width: 1920 px;
 }
 
@@ -23,9 +26,67 @@
     align-items: center;
     /*overflow: auto;*/
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-color: #FFC400;
 }
+
+.modulo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+
+.modulo4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 900px;
+    background-color: #FFC400;
+}
+
+.modulo5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.modulo6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 850px;
+    background-color: #FFC400;
+}
+
+.modulo7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+/*MODULO1..........................................................................*/
 
 .menu {
     font-size: 30px;
@@ -55,6 +116,8 @@
     margin: 0px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
 }
+
+/*MODULO2..........................................................................*/
 
 .div_1 {
     font-size: 30px;
@@ -88,4 +151,193 @@
     border: 2px solid white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/*MODULO3..........................................................................*/
+
+.div1_mod3 {
+    font-size: 30px;
+    color: black;
+    width: 550px;
+}
+
+.div2_mod3 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.boton1_mod3 {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 17px 27px;
+    color: white;
+    background-color: #FFC400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*MODULO4..........................................................................*/
+
+.hijo2_mod4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.div1_mod4 {
+    font-size: 28px;
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+
+.div2_mod4, .div3_mod4, .div4_mod4{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 360px;
+}
+
+/*MODULO5..........................................................................*/
+
+.div1_mod5 {
+    font-size: 30px;
+    color: black;
+    width: 550px;
+    text-align: end;
+}
+
+.div2_mod5 {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.boton1_mod5 {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 17px 27px;
+    color: white;
+    background-color: #FFC400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*MODULO6..........................................................................*/
+
+.hijo2_mod6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.div1_mod6 {
+    font-size: 28px;
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+
+.div1_mod6 h1{
+    margin-bottom: 20px;
+}
+
+.div2_mod6, .div3_mod6, .div4_mod6{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 360px;
+}
+
+.div2_mod6 h2, button{
+    margin-top: 20px;
+}
+
+.div2_mod6 button{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #00BECB;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.div3_mod6 h2, button{
+    margin-top: 20px;
+}
+
+.div3_mod6 button{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #00BECB;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.div4_mod6 h2, button{
+    margin-top: 20px;
+}
+
+.div4_mod6 button{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #00BECB;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*MODULO7..........................................................................*/
+
+.hijo2_mod7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.div1_mod7 {
+    font-size: 28px;
+    color: black;
+    width: 800px;
+    text-align: center;
+}
+
+.div1_mod7 h1{
+    margin-bottom: 20px;
+}
+
+.div2_mod7, .div3_mod7, .div4_mod7{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    width: 360px;
+}
+
+.div2_mod7 h2, .iconos{
+    margin-top: 20px;
+}
+
+.div3_mod7 h2, .iconos{
+    margin-top: 20px;
+}
+
+.div4_mod7 h2, .iconos{
+    margin-top: 20px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
